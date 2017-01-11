@@ -1,39 +1,8 @@
-# Angular 2 Data Table
+# Angular 2 Minimal NPM Package
 
-An Angular 2+ Data Table that uses HTTP to create, read, update and delete data from an external API such REST
+This is a minimal Angular 2+ NPM package example to show you how to build your own package.
 
-## Warning
-This module is a work in progress and is in concept phase.
-
-## Installation
-
-You can install the module using npm:
-
-    `npm install angular-x-data-table --save`
-
-## Attributes
-| Attributes     | Description     | Default  |
-| :------------- | :------------- | :------------- |
-| title       | The table title | undefined |
-| authTokenHeader       | Token used when calling the REST API | undefined |
-| delete       | The delete endpoint | undefined |
-| get       | The get endpoint | undefined |
-| patch       | The patch endpoint | undefined |
-| post       | The post endpoint | undefined |
-| put       | The put endpoint | undefined |
-| maxRows       | The max number of rows in a page | undefined |
-| stripped       | Stripped table | false |
-| condensed       | Turn the lines compact | false |
-| hover       | Hover the line when the mouse is over | false |
-| contentEditable       | Allow object edition directly in the table | false |
-
-## Example
-```js
-<br-data-table
-  title="My table title"
-  authTokenHeader="Authorization: kjhl2sd34fhgn564356ljsvdhfgn34iery678gxeqwrgt"
-></br-data-table>
-```
+It is written in Typescript and then co,piled in pure JS.
 
 ## Run the demo
 
