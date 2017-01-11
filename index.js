@@ -1,1 +1,1 @@
-exports.AngularXMinimalNpmPackage = require('./lib').AngularXMinimalNpmPackage;
+exports.AngularXMinimalNpmPackageModule = require('./lib').AngularXMinimalNpmPackageModule;

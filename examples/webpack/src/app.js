@@ -13,7 +13,7 @@ require("reflect-metadata");
 const core_1 = require("@angular/core");
 const platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
 const platform_browser_1 = require("@angular/platform-browser");
-const _1 = require("angular-x-data-table/");
+const _1 = require("angular-x-minimal-npm-package/");
 const http_1 = require("@angular/http");
 let App = class App {
     constructor() {
@@ -27,11 +27,7 @@ App = __decorate([
     core_1.Component({
         selector: 'app',
         template: `<div>
-                   <input (keyup)="onKeyUp(input)" #input placeholder="Type Here">
-                   {{message}}
-                   <hr>
-                   Hello world => <angular-x-data-table></angular-x-data-table>
-                   <hr>
+                   <angular-x-minimal-npm-package></angular-x-minimal-npm-package>
                </div>`
     }),
     __metadata("design:paramtypes", [])
@@ -50,7 +46,7 @@ AppModule = __decorate([
         imports: [
             platform_browser_1.BrowserModule,
             http_1.HttpModule,
-            _1.AngularXDataTableModule,
+            _1.AngularXMinimalNpmPackageModule,
         ],
         providers: []
     }),

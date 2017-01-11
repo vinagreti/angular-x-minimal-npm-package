@@ -4,17 +4,13 @@ import 'reflect-metadata';
 import { NgModule, Component } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { BrowserModule } from '@angular/platform-browser';
-import { AngularXDataTableModule } from 'angular-x-data-table/';
+import { AngularXMinimalNpmPackageModule } from 'angular-x-minimal-npm-package/';
 import { HttpModule } from '@angular/http';
 
 @Component({
     selector: 'app',
     template: `<div>
-                   <input (keyup)="onKeyUp(input)" #input placeholder="Type Here">
-                   {{message}}
-                   <hr>
-                   Hello world => <angular-x-data-table></angular-x-data-table>
-                   <hr>
+                   <angular-x-minimal-npm-package></angular-x-minimal-npm-package>
                </div>`
 })
 export class App {
@@ -37,7 +33,7 @@ export class App {
   imports: [
     BrowserModule,
     HttpModule,
-    AngularXDataTableModule,
+    AngularXMinimalNpmPackageModule,
   ],
   providers: [
   ]

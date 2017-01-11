@@ -1,5 +1,5 @@
 {
-  "name": "angular-x-data-table-demo",
+  "name": "angular-x-minimal-npm-package-demo",
   "version": "1.0.0",
   "description": "A minimal Webpack Angular 2 app used to demo the npm module",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinagreti/angular-x-data-table.git"
+    "url": "git+https://github.com/vinagreti/angular-x-minimal-npm-package.git"
   },
   "keywords": [
     "Angular",
@@ -18,9 +18,9 @@
   "author": "bruno@tzadi.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vinagreti/angular-x-data-table/issues"
+    "url": "https://github.com/vinagreti/angular-x-minimal-npm-package/issues"
   },
-  "homepage": "https://github.com/vinagreti/angular-x-data-table#readme",
+  "homepage": "https://github.com/vinagreti/angular-x-minimal-npm-package#readme",
   "devDependencies": {
     "typescript": "2.0.0",
     "webpack": "1.12.9",
@@ -35,9 +35,9 @@
     "@angular/platform-browser-dynamic": "2.4.1",
     "rxjs": "5.0.2",
     "zone.js": "0.7.4",
-    "angular-x-data-table": "0.0.18",
+    "angular-x-minimal-npm-package": "0.0.2",
     "es6-promise": "3.0.2",
-    "core-js": "^2.4.0",
+    "core-js": "2.4.0",
     "reflect-metadata": "0.1.2",
     "ts-loader": "^0.8.2"
   }

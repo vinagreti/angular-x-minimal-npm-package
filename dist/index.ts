@@ -1,7 +1,5 @@
-import { AngularXDataTableModule } from './angular-x-data-table.module';
-import { AngularXDataTableComponent } from './angular-x-data-table.component';
+import { AngularXMinimalNpmPackageModule } from './angular-x-minimal-npm-package.module';
 
 export {
-  AngularXDataTableModule,
-  AngularXDataTableComponent
+  AngularXMinimalNpmPackageModule
 }

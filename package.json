@@ -1,15 +1,15 @@
 {
-  "name": "angular-x-data-table",
-  "version": "0.0.18",
-  "description": "An Angular 2+ Data Table that uses HTTP to create, read, update and delete data from an external API such REST.",
+  "name": "angular-x-minimal-npm-package",
+  "version": "0.0.2",
+  "description": "This is a minimal Angular 2+ NPM package example to show you how to build your own package.",
   "main": "index.js",
   "scripts": {
     "watch": "tsc -p src -w",
-    "build": "rm -rf lib && tsc -p dist"
+    "build": "gulp js:build && rm -rf lib && tsc -p dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinagreti/angular-x-data-table.git"
+    "url": "git+https://github.com/vinagreti/angular-x-minimal-npm-package.git"
   },
   "keywords": [
     "Angular",
@@ -20,9 +20,9 @@
   "author": "bruno@tzadi.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vinagreti/angular-x-data-table/issues"
+    "url": "https://github.com/vinagreti/angular-x-minimal-npm-package/issues"
   },
-  "homepage": "https://github.com/vinagreti/angular-x-data-table#readme",
+  "homepage": "https://github.com/vinagreti/angular-x-minimal-npm-package#readme",
   "devDependencies": {
     "gulp": "3.9.1",
     "gulp-angular-embed-templates": "2.3.0",
