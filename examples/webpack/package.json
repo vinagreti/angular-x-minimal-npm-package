@@ -35,7 +35,6 @@
     "@angular/platform-browser-dynamic": "2.4.6",
     "rxjs": "5.0.2",
     "zone.js": "0.7.4",
-    "@neoprospecta/datetimepicker": "*",
     "angular-x-minimal-npm-package": "./../../",
     "es6-promise": "3.0.2",
     "core-js": "2.4.0",
